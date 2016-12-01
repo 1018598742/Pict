@@ -2,9 +2,8 @@ package com.example.pict;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
-import android.media.Image;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
@@ -15,9 +14,6 @@ import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
-
-import static android.R.attr.logo;
-import static android.R.attr.type;
 
 public class MainActivity extends AppCompatActivity {
     private ImageView[][] iv_game_arr = new ImageView[3][5];
